@@ -5,7 +5,7 @@
 /* Step 2 - Variables */
 const fullName = 'Anthony Trillo Espejo';
 const currentYear = 2023;
-const profilePicture = '/images/placeholder.jpeg';
+const profilePicture = 'images/placeholder.jpeg';
 
 /* Step 3 - Element Variables */
 const nameElement = document.getElementById('name');
