@@ -3,7 +3,7 @@
 /* Profile Object  */
 const myProfile = {
   name: 'Anthony Trillo',
-  photo: '../images/placeholder.jpeg',
+  photo: 'images/placeholder.jpeg',
   favoriteFoods: ['Arroz Chaufa', 'Pizza', 'Ají de Gallina'],
   hobbies: ['Table Tennis', 'Lisen to Music', 'Travel'],
   placesLived: [],
