@@ -117,6 +117,18 @@ footer {
     bottom: 0;
 }
 
+img {
+    width: 240px;
+    height: auto;
+    border-radius: 5%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 30px #777;
+}
+
+h1, h2, select {
+    margin: 10px 0;
+}
+
 /* Class Selectors */
 .active {
     border-bottom: 1px solid yellow;
@@ -131,6 +143,23 @@ footer {
 }
 
 /* ID Selectors */
+#gridly {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+#temples {
+    column-count: 3;
+    column-gap: 20px;
+    padding: 30px 0;
+}
+
+#temples article {
+    margin: 10px 0;
+    break-inside: avoid-column;
+}
 
 /* Media Queries */
 @media only screen and (min-width: 32.5em) {
