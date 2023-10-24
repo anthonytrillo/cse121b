@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="/styles/styles.css">
+  <title>Shoppers</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Shoppers</h1>
+    <button id="basket-cart"><i class="fas fa-shopping-cart"></i><span id="counter-cart">0</span></button>
+  </header>
+
+  <main id="product-container">
+
+  </main>
+
+  <div class="modal-container">
+    <div class="modal-cart">
+      <h3>Cart</h3>
+      <button id="btn-close-cart"><i class="fas fa-times-circle"></i></button>
+      <div id="cart-container">
+
+      </div>
+      <p class="product-price">Total price: $<span id="total-price"></span></p>
+    </div>
+  </div>
+
+  <script src="/data/constants.js" type="module"></script>
+  <script src="/js/modal.js" type="module"></script>
+  <script src="/js/cart.js" type="module"></script>
+  <script src="/js/home.js" type="module"></script>
+  <script src="/js/getProducts.js" type="module"></script>
+  <script src="/js/index.js" type="module"></script>
+  <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
